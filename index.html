@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./app.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materialize Sandbox</title>
+
+</head>
+
+<body>
+
+
+    <div>
+
+        <nav>
+            <div class="nav-wrapper blue-grey lighten-1 ">
+                <i class="icon material-icons left">arrow_backword</i>
+                <a href="#!" class=" logo brand-logo left #e0f2f1-text">My
+                    status</a>
+
+            </div>
+        </nav>
+
+        <div>
+            <img src="./img/i.jpg" class="avatar avatarImage" alt="">
+            <span class="title"> <strong>250 views</strong> </span>
+            <p class="seen">yesterday, 10:06 pm</p>
+            <a href="#!" class="secondary-content"><i class="material-icons">more_vert</i></a>
+        </div>
+        <div class="vertical"></div>
+        <div>
+            <img src="./img/1.jpg" class="avatar avatarImage" alt="">
+            <span class="title"> <strong>180 views</strong> </span>
+            <p class="seen">yesterday, 9:20 pm</p>
+            <a href="#!" class="secondary-content"><i class="material-icons">more_vert</i></a>
+        </div>
+        <div class="vertical"></div>
+        <div>
+            <img src="./img/2.jpg" class="avatar avatarImage" alt="">
+            <span class="title"> <strong>175 views</strong> </span>
+            <p class="seen">yesterday, 9:20 pm</p>
+            <a href="#!" class="secondary-content"><i class="material-icons">more_vert</i></a>
+        </div>
+        <div class="vertical"></div>
+        <div>
+            <img src="./img/3.jpg" class="avatar avatarImage" alt="">
+            <span class="title"> <strong>150 views</strong> </span>
+            <p class="seen">yesterday, 9:20 pm</p>
+            <a href="#!" class="secondary-content"><i class="material-icons">more_vert</i></a>
+        </div>
+        <div class="vertical"></div>
+        <div>
+            <img src="./img/4.jpg" class="avatar avatarImage" alt="">
+            <span class="title"> <strong>230 views</strong> </span>
+            <p class="seen">yesterday, 8:06 pm</p>
+            <a href="#!" class="secondary-content"><i class="material-icons">more_vert</i></a>
+        </div>
+        <p class="center">Your status updates will disappear after 24 hours</p>
+    </div>
+    <div class="fixed">
+        <a class="btn-floating btn-large waves-effect waves-light cyan lighten-2  right"><i
+                class="material-icons">camera_alt</i></a>
+    </div>
+    <div class="second_fixed">
+        <a class="btn-floating btn-small waves-effect waves-light cyan lighten-2 right"><i
+                class="material-icons">create</i></a>
+    </div>
+    <div class="third_fixed">
+        <a class="btn-floating btn-large waves-effect waves-light cyan lighten-2 right"><i
+                class="material-icons">content_cut</i></a>
+    </div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+
+    </script>
+</body>
+
+</html>

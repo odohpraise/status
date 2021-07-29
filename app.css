@@ -1,0 +1,52 @@
+.avatarImage {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    border:3px solid black;
+    margin: 10px;
+ }
+ .secondary-content{
+     margin-top: -3rem;
+     margin-right: 3rem;
+     
+ }
+ body{
+     color: white;
+     background-color: rgba(10, 10, 10, 0.698);
+ }
+ .logo{
+    margin-left: 5rem;
+ }
+ .icon{
+     margin-left: 1.5rem;
+ }
+ .seen{
+     margin-left: 7.5rem;
+     margin-top: -3rem;
+ }
+ .vertical{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    height: 20px;
+    margin-left: 7rem;
+    margin-right: 2rem;
+ }
+ .center{
+    margin-top: 3rem;
+    font-size: 0.9em;
+ }
+ .fixed{
+     position: fixed;
+     bottom: 4rem;
+     right: 3rem;
+ }
+ .second_fixed{
+    position: fixed;
+    bottom: 10rem;
+    right: 3.8rem;
+ }
+ .third_fixed{
+    position: fixed;
+    bottom: 13.5rem;
+    right: 3rem;
+ }
